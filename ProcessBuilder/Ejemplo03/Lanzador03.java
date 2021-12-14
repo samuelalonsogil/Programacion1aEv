@@ -12,10 +12,10 @@ public class Lanzador03 {
     public static void lanzarSumador(int n1, int n2, String fichResultados) throws IOException {
 
         /*java a ejecutar*/
-        String comando = "F:\\Clase\\ProgramacionServiciosProcesos\\src\\ProcessBuilder\\Ejemplo03\\Sumador.java";
+        String comando = "ProcessBuilder/Ejemplo03/Sumador.java";
 
         /*ruta hasta los binarios*/
-        File directorioSumador = new File("F:\\Clase\\ProgramacionServiciosProcesos\\src");
+        File directorioSumador = new File("C:\\Users\\Samu\\IdeaProjects\\ProgramacionServiciosYProcesos\\Programacion1aEv");
 
         /*crea el fichero de resultado parcial con el nombre pasado como parámetro*/
         File fichResultado = new File(fichResultados);

@@ -3,7 +3,7 @@ package ProcessBuilder.Ejemplos;
 import java.io.IOException;
 import java.util.Map;
 
-public class EjemploProcessBuilder04 {
+public class ImprimirEntornoDelPb {
     public static void main(String[] arg) throws IOException {
 // creating the process
         ProcessBuilder pb = new ProcessBuilder();
