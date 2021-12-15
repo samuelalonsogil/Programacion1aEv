@@ -24,7 +24,13 @@ public class Partida {
         System.out.println("---> Los jugadores tiran los dados");
         for(Tirada jugador:jugadores){
             jugador.tirarDados();
+            if(maxResultado < jugador.getSuma() ){
+                maxResultado = jugador.getSuma();
+                ganador = jugador.getMarcador().getNombre();
+            }
         }
+        System.out.println("----> ¿quien gana?<----");
+        System.out.println(ganador + " tirada máxima: " + maxResultado);
     }
 
 

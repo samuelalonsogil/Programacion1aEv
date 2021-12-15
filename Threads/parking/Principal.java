@@ -1,7 +1,5 @@
 package Threads.parking;
 
-import Threads.ascensor.Ascensor;
-import Threads.ascensor.Persona;
 
 import java.util.ArrayList;
 import java.util.Collections;
